@@ -1,4 +1,4 @@
-from .database import Base
+from database import Base
 from sqlalchemy import TIMESTAMP , Column, Integer, String,Boolean,Time,Float, ForeignKey, Table , DateTime
 from pydoc import text
 from sqlalchemy.sql.expression import text
